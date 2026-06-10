@@ -75,4 +75,4 @@ All example data is synthetic. No real names, employers, or application records 
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Built by [David Sanz Cañal](https://github.com/davidsanz21).
+MIT — see [LICENSE](LICENSE). Built by [David Sanz](https://github.com/davidsanz21).
