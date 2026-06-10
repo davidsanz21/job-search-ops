@@ -1,0 +1,17 @@
+@page {
+  size: A4; margin: 1.2cm 1.3cm 1.5cm;
+  @bottom-right { content: counter(page) "/" counter(pages); font-size: 7pt; color: #999; font-family: 'Liberation Sans',Arial,sans-serif; }
+}
+body { font-family: 'Liberation Sans','Helvetica Neue',Arial,sans-serif; font-size: 8.8pt; line-height: 1.32; color: #222; margin: 0; }
+h1 { font-family: 'Lora',Georgia,serif; color: #1a3a5c; font-size: 15pt; margin: 0 0 2px; }
+h1 + p { color: #555; font-size: 8.6pt; margin: 0 0 8px; }
+h2 { font-family: 'Lora',Georgia,serif; color: #1a3a5c; font-size: 9pt; letter-spacing: 0.18em; text-transform: uppercase; border-bottom: 1px solid #1a3a5c; padding-bottom: 2px; margin: 12px 0 5px; page-break-after: avoid; }
+blockquote { margin: 4px 0; padding: 6px 9px; background: #f4f6f9; border-left: 3px solid #1a3a5c; page-break-inside: avoid; }
+blockquote p { margin: 2px 0; }
+body > blockquote:first-of-type { background: #eef1f6; border: 1px solid #1a3a5c; border-left: 4px solid #1a3a5c; }
+p.delivery { color: #666; font-size: 8pt; font-style: italic; margin: 2px 0 7px; }
+strong { color: #1a3a5c; }
+ul, ol { margin: 3px 0 7px; padding-left: 16px; }
+li { margin-bottom: 2.5px; page-break-inside: avoid; }
+p { margin: 3px 0; }
+hr { display: none; }
