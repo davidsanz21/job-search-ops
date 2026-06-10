@@ -2,9 +2,7 @@
 
 A Claude skill that runs your entire job search as a coordinated team of career experts: document intake, a structured career-profile interview, a master CV, per-posting fit assessment, tailored truth-only application documents as PDFs, an application database, and interview coaching that ends in a printable cheatsheet.
 
-I built this for my own search after a decade in automotive engineering, then generalized it. Everything in here was used in production on real applications before it was packaged.
-
-![Sample CV render](examples/preview-cv.png)
+Everything in here was used in production on real applications before it was packaged.
 
 ## What it does — five phases
 
@@ -15,8 +13,6 @@ I built this for my own search after a decade in automotive engineering, then ge
 | **3 · Master CV** | "next" | `master-cv.md` — the comprehensive superset every tailored CV is cut from |
 | **4 · Application loop** | paste any job posting | fit assessment (capability **and** preference scores, 1–10), apply/skip recommendation, tailored CV + cover letter as PDFs, a database record |
 | **5 · Interview coaching** | "I have an interview" | question-by-question practice (answer → feedback → co-craft → lock), ending in a cheatsheet PDF |
-
-![Sample cheatsheet render](examples/preview-cheatsheet.png)
 
 ## The doctrine (why you can trust its output)
 
