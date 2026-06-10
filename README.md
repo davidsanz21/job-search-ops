@@ -24,7 +24,7 @@ Everything in here was used in production on real applications before it was pac
 
 ## Install
 
-**Claude.ai:** Settings → Capabilities → Skills → upload the packaged `job-search-ops.skill`, and `humanaizer.skill` alongside it (claude.ai accepts one skill per upload, so the companion installs separately). For best results, run it inside a dedicated Project and save the canonical files it produces (`career-profile.md`, `master-cv.md`, `application-database.md`) into the project knowledge — that's how state persists between sessions.
+**Claude.ai:** download both .skill files from the [latest release](https://github.com/davidsanz21/job-search-ops/releases/latest), then Settings → Capabilities → Skills → upload each one (claude.ai accepts one skill per upload). For best results, run it inside a dedicated Project and save the canonical files it produces (`career-profile.md`, `master-cv.md`, `application-database.md`) into the project knowledge — that's how state persists between sessions.
 
 **Claude Code / Cowork:** clone into your skills directory:
 
