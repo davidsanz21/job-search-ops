@@ -29,7 +29,7 @@ Everything in here was used in production on real applications before it was pac
 **Claude Code / Cowork:** clone into your skills directory:
 
 ```
-git clone https://github.com/Deivids1990/job-search-ops ~/.claude/skills/job-search-ops
+git clone https://github.com/davidsanz21/job-search-ops ~/.claude/skills/job-search-ops
 ```
 
 **Recommended companion:** [`companion-skills/humanaizer/`](companion-skills/humanaizer/SKILL.md) — install it alongside. Every recruiter-facing text gets a silent humanization pass through it (a condensed fallback is bundled for installs without it).
