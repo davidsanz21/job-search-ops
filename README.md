@@ -14,6 +14,25 @@ Everything in here was used in production on real applications before it was pac
 | **4 · Application loop** | paste any job posting | fit assessment (capability **and** preference scores, 1–10), apply/skip recommendation, tailored CV + cover letter as PDFs, a database record |
 | **5 · Interview coaching** | "I have an interview" | question-by-question practice (answer → feedback → co-craft → lock), ending in a cheatsheet PDF |
 
+```mermaid
+flowchart LR
+    subgraph ONCE[Set up once]
+        direction LR
+        P1[1 · Intake] --> P2[2 · Career interview] --> P3[3 · Master CV]
+    end
+    subgraph LOOP[Per posting]
+        P4{4 · Fit assessment} -->|apply| OUT[Tailored CV + letter PDFs]
+        P4 -->|skip| SKIP[Skip record]
+    end
+    subgraph PREP[Per interview]
+        P5[5 · Coaching] --> CS[Cheatsheet PDF]
+    end
+    P3 --> P4
+    OUT --> DB[(application database)]
+    SKIP --> DB
+    DB --> P5
+```
+
 ## The doctrine (why you can trust its output)
 
 - **Truth only.** Tailoring means selecting, ordering, and phrasing your real facts for a specific audience. The system never invents titles, inflates scope, or claims tools you don't have.
