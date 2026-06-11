@@ -92,6 +92,10 @@ companion-skills/humanaizer/  the text-humanization companion skill
 
 All example data is synthetic. No real names, employers, or application records ship with this repo.
 
+## Notes
+
+- The Python in this repository was written with Claude under my direction: I specified the behavior, reviewed the output, and I operate and maintain it. That division of labor is not a disclaimer — it is the working model this repo demonstrates.
+
 ## License
 
 MIT — see [LICENSE](LICENSE). Built by [David Sanz](https://github.com/davidsanz21).
