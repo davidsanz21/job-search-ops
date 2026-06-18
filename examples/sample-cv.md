@@ -1,9 +1,19 @@
-# Build note: synthetic example — rendered by `--style cv`. This H1 and this blockquote are stripped automatically.
-> Internal note: everything below is fictional demo data.
+<!-- CV METADATA — internal, not rendered
+     lane: Industrial (general)
+     language: EN
+     version: (version tracked by filename)
+     last updated: 2026-06-18
+-->
+
+> **Build note (internal — stripped on render).** Synthetic demo, `--style cv`. Everything below is fictional. This metadata comment, this blockquote, and the rules below are stripped automatically.
+
+---
 
 **Alex Sample**
 Process Engineer · Continuous Improvement
 Springfield · alex.sample@example.com · +1 555 0100
+
+---
 
 ## Professional summary
 

@@ -16,7 +16,7 @@
    - No self-assessment adjectives. No content that isn't traceable to the profile.
 3. **Length:** the master CV may run long (3–4 pages) — it is the superset. Tailored CVs in Phase 4 are cut to ≤2–3 pages.
 4. **Text-quality pass** (per SKILL.md) on the summary and all bullets — silently.
-5. **Render** with `scripts/render_pdf.py --style cv` so the user sees the real artifact, present both `.md` and `.pdf`, and instruct the user to save `master-cv.md` to project knowledge.
+5. **Render** with `scripts/render_pdf.py --style cv` (style per `references/cv-design-guidelines.md`; pass `--footer "Full Name"` for the footer; eyeball a page-1 preview per §9) so the user sees the real artifact, present both `.md` and `.pdf`, and instruct the user to save `master-cv.md` to project knowledge.
 
 ## Structure skeleton
 

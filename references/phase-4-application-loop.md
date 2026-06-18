@@ -60,7 +60,7 @@ Start from `master-cv.md`, then:
 ## §5 Finalize and deliver
 
 1. Run the **text-quality pass** (SKILL.md) on CV summary/bullets and the full letter — silently.
-2. Render both via `scripts/render_pdf.py` (`--style cv`, `--style letter`); check reported page counts; restructure if over.
+2. Render both via `scripts/render_pdf.py` (`--style cv`, `--style letter`; CV style per `references/cv-design-guidelines.md`, `--footer "Full Name"` for the footer); check reported page counts; restructure if over; eyeball a page-1 preview before presenting (guidelines §9).
 3. Present the files **plus application notes**: channel advice (referral vs. portal), timing, who to address, what to expect next, and any posting-specific instruction the user must follow when submitting.
 
 ## §6 The database append (never skip this)

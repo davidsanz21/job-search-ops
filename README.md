@@ -70,9 +70,11 @@ git clone https://github.com/davidsanz21/job-search-ops ~/.claude/skills/job-sea
 ```
 pip install -r scripts/requirements.txt
 python scripts/render_pdf.py examples/sample-cv.md --style cv -o out/cv.pdf
+# add a name to the page footer (optional):
+python scripts/render_pdf.py examples/sample-cv.md --style cv -o out/cv.pdf --footer "Jane Doe"
 ```
 
-Best with the Lora and Liberation Sans fonts installed; falls back to Georgia/Arial. The script reports page count so the agent can enforce length discipline (CV ≤ 2–3 pages, letter ≤ 1) by restructuring content instead of shrinking type.
+The CV look is specified canonically in [`references/cv-design-guidelines.md`](references/cv-design-guidelines.md) (deep-navy serif headings, italic subtitle, thin hairline section rules, em-dash bullets) and implemented in `scripts/styles/cv.css` — read the guidelines before restyling. CV markdown starts with a stripped `<!-- metadata -->` block, a `>` build-note, and `---` rules (guidelines §7); the engine removes all three so the name renders first. Best with the Lora and Liberation Sans fonts installed; falls back to Georgia/Arial. The script reports page count so the agent can enforce length discipline (CV ≤ 2–3 pages, letter ≤ 1) by restructuring content instead of shrinking type.
 
 ## What it deliberately does not do
 
@@ -83,7 +85,7 @@ Best with the Lora and Liberation Sans fonts installed; falls back to Georgia/Ar
 
 ```
 SKILL.md                      orchestrator: doctrine, team, state protocol, phase router
-references/                   one procedure file per phase + humanizer fallback
+references/                   one procedure file per phase + CV design guidelines + humanizer fallback
 assets/templates/             career profile, application database, cheatsheet templates
 scripts/                      render_pdf.py + print stylesheets (cv / letter / cheatsheet)
 examples/                     fully synthetic sample inputs and their rendered PDFs
